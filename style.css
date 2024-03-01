@@ -1,0 +1,40 @@
+:root {
+    --dark-background: #1a1a1a;
+    --white-text: #ffffff;
+    --dark-green: #006400;
+    --light-green: #32CD32;
+    --light-gray: #c0c0c0;
+    --medium-aqua-green: #66cdaa;
+    --bright-green: #00ff00;
+
+    --header-box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.6);
+    --main-box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.4);
+  }
+
+body{
+    background-color: var(--dark-background);
+    color: var(--white-text);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header{
+    /* background-color: var(--dark-green); */
+    box-shadow: var(--header-box-shadow);
+    /* color: var(--light-green); */
+}
+.footer-nav{
+    background-color: var(--dark-background);
+}
+main{
+    box-shadow: var(--main-box-shadow);
+}
+
+h5{
+    /* color: var(--light-green); */
+}
+
+
+p{
+    color: var(--light-gray);
+}

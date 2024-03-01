@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exousia Navi</title>
+
+    <!-- {{-- font awesome --}} -->
+    <!-- <link
+      rel="stylesheet"
+      data-purpose="Layout StyleSheet"
+      title="Web Awesome"
+      href="/css/app-wa-462d1fe84b879d730fe2180b0e0354e0.css?vsn=d"
+    /> -->
+    <link
+      rel="stylesheet"
+      href="https://site-assets.fontawesome.com/releases/v6.5.1/css/all.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://site-assets.fontawesome.com/releases/v6.5.1/css/sharp-thin.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://site-assets.fontawesome.com/releases/v6.5.1/css/sharp-solid.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://site-assets.fontawesome.com/releases/v6.5.1/css/sharp-regular.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://site-assets.fontawesome.com/releases/v6.5.1/css/sharp-light.css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+    
+  </head>
+  <body>
+    
+   
+
+    <!-- footer -->
+    
+
+    <div class="relative w-full h-screen h-96">
+
+        <header class="sticky top-0 flex items-center justify-between w-full px-2 p-2 bg-green-800 z-1">
+            <div class="left flex items-center gap-2">
+                <i class="fa-duotone fa-map-location-dot text-4xl font-bold"></i>
+                <span class="text-xl font-bold tracking-wider">Exousia Navi</span>
+            </div>
+            <div class="right text-base">
+                <button class="border rounded-md p-1 text-gray-200 hover:text-green-400 hover:border-green-400">Get started</button>
+            </div>
+        </header>
+       
+        <main class="p-3 z-0">
+            <div class="mt-15">
+                
+                
+                <section>
+                    <a href="#" class="block max-w-full mb-2 p-4 border-l-4 border-gray-300 shadow relative">
+
+                        <h5 class="mb-2 text-2xl font-bold tracking-tight text-green-600">Exousia Navigation</h5>
+                        <p class="font-normal">We are excited to introduce the latest enhancements to Exousia Navigation. Stay ahead with these improvements designed to provide you with a seamless and efficient navigation experience.</p>
+                        <i class="fa-duotone fa-map-location-dot text-9xl absolute right-0 bottom-0 opacity-25"></i>
+    
+                    </a>
+                </section>
+
+                
+
+            <div id="indicators-carousel" class="relative w-full" data-carousel="static">
+                <!-- Carousel wrapper -->
+                <div class="relative h-72 overflow-hidden rounded-lg md:h-96">
+                    <!-- Item 1 -->
+                    <div class="hidden duration-700 ease-in-out" data-carousel-item="active">
+                        <img src="/img/Capture.JPG" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+                    </div>
+                    <!-- Item 2 -->
+                    <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                        <img src="/img/Capture.JPG" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+                    </div>
+                    <!-- Item 3 -->
+                    <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                        <img src="/img/Capture.JPG" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+                    </div>
+                    <!-- Item 4 -->
+                    <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                        <img src="/img/Capture.JPG" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+                    </div>
+                    <!-- Item 5 -->
+                    <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                        <img src="/img/Capture.JPG" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+                    </div>
+                </div>
+                <!-- Slider indicators -->
+                <div class="absolute z-30 flex -translate-x-1/2 space-x-3 rtl:space-x-reverse bottom-5 left-1/2">
+                    <button type="button" class="w-3 h-3 rounded-full" aria-current="true" aria-label="Slide 1" data-carousel-slide-to="0"></button>
+                    <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 2" data-carousel-slide-to="1"></button>
+                    <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 3" data-carousel-slide-to="2"></button>
+                    <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 4" data-carousel-slide-to="3"></button>
+                    <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 5" data-carousel-slide-to="4"></button>
+                </div>
+                <!-- Slider controls -->
+                <button type="button" class="absolute top-0 start-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-prev>
+                    <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+                        <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 1 1 5l4 4"/>
+                        </svg>
+                        <span class="sr-only">Previous</span>
+                    </span>
+                </button>
+                <button type="button" class="absolute top-0 end-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-next>
+                    <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+                        <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4"/>
+                        </svg>
+                        <span class="sr-only">Next</span>
+                    </span>
+                </button>
+            </div>
+
+                
+                <section class="mt-8">
+                    <h2 class="text-2xl font-bold mb-4">Featured Services</h2>
+              
+                    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+                        <div class="bg-green-800 p-6 border border-green-700 rounded-md shadow-md">
+                            <h3 class="text-xl font-bold mb-2">Real-time Navigation System</h3>
+                            <p class="text-green-300">Introducing our state-of-the-art real-time navigation system. Elevate your journey with cutting-edge technology, providing live updates and dynamic features crafted to enrich your browsing experience. Navigate confidently with precision and efficiency.</p>
+                        </div>
+                        
+                        <div class="bg-green-800 p-6 border border-green-700 rounded-md shadow-md">
+                            <h3 class="text-xl font-bold mb-2">Dynamic Floor Plan</h3>
+                            <p class="text-green-300">Unlock a new dimension in planning with our Dynamic Floor Plan feature. Easily upload your floor plan layout, allowing you to visualize and customize your space with simplicity and accuracy. Plan, rearrange, and optimize effortlessly.</p>
+                        </div>
+                        
+                        <div class="bg-green-800 p-6 border border-green-700 rounded-md shadow-md">
+                            <h3 class="text-xl font-bold mb-2">Navigation Friendly</h3>
+                            <p class="text-green-300">Immerse yourself in a navigation experience like never before. Our Navigation Friendly services are designed with your convenience in mind. Explore a seamless journey with user-friendly interfaces, detailed instructions, and features that prioritize simplicity and efficiency.</p>
+                        </div>
+                        
+                  </section>
+              
+                 
+              
+                  <!-- <section class="mt-8">
+                    <h2 class="text-2xl font-bold mb-4">Contact Us</h2>
+              
+                    <p class="text-green-300 mb-4">Have questions or need assistance? Contact us through the form below:</p>
+              
+                    <form action="#" method="post" class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                      <div>
+                        <label for="name" class="block text-sm font-medium text-green-300">Your Name</label>
+                        <input type="text" id="name" name="name" class="mt-1 p-2 border border-green-700 rounded-md w-full" required>
+                      </div>
+              
+                      <div>
+                        <label for="email" class="block text-sm font-medium text-green-300">Your Email</label>
+                        <input type="email" id="email" name="email" class="mt-1 p-2 border border-green-700 rounded-md w-full" required>
+                      </div>
+              
+                      <div class="col-span-2">
+                        <label for="message" class="block text-sm font-medium text-green-300">Your Message</label>
+                        <textarea id="message" name="message" rows="4" class="mt-1 p-2 border border-green-700 rounded-md w-full" required></textarea>
+                      </div>
+              
+                      <div class="col-span-2">
+                        <button type="submit" class="w-full p-2 bg-green-600 text-white rounded-md hover:bg-green-700 transition duration-300">Send Message</button>
+                      </div>
+                    </form>
+                  </section> -->
+
+            </div>
+        </main>
+        
+        <div class="fixed bottom-0 left-0 z-50 w-full h-16 border-t border-gray-200 footer-nav">
+            <div class="grid h-full max-w-lg grid-cols-3 mx-auto">
+                <button type="button" class="inline-flex flex-col items-center justify-center font-medium px-5 hover:text-green-700 group">
+                    <i class="fa-duotone fa-house text-xl"></i>
+                    <span class="text-sm text-gray-500 group-hover:text-green-700">Home</span>
+                </button>
+                <button type="button" class="inline-flex flex-col items-center justify-center font-medium px-5 hover:text-green-700 group">
+                    <i class="fa-duotone fa-square-info text-xl"></i>
+                    <span class="text-sm text-gray-500 group-hover:text-green-700">About</span>
+                </button>
+                <button type="button" class="inline-flex flex-col items-center justify-center font-medium px-5 hover:text-green-700 group">
+                    <i class="fa-duotone fa-star text-xl"></i>
+                    <span class="text-sm text-gray-500 group-hover:text-green-700">Services</span>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></script>
+  </body>
+</html>
